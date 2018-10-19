@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+#login {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+#signup {
+  display: flex;
+  justify-content: center;
+}
+
+#loginFieldset {
+  height: 30vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+#signupFieldset {
+  height: 30vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+#profileSelector {
+  height: 80vh;
+  width: 45vw;
+  float: left;
+  border: 1px solid black;
+}
+
+#characteristics {
+  height: 80vh;
+  width: 45vw;
+  float: right;
+  border: 1px solid black;
+}

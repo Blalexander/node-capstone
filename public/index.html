@@ -6,12 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
-  <p>Hello!</p>
+  <main>
+    <form id="login" action="" method="post">
+      <fieldset id="loginFieldset">
+        <label id="loginLabel">Login</label>
+        <input type="email" name="logemail" placeholder="Email" aria-label="Email" />
+        <input type="password" name="logpass" placeholder="Password" aria-label="Password" />
+        <button id="loginButton" type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <form id="signup" action="" method="post">
+      <fieldset id="signupFieldset">
+        <label id="signupLabel">Signup</label>
+        <input type="email" name="email" placeholder="Email" aria-label="Email" />
+        <input type="password" name="pass" placeholder="Password" aria-label="Password" />
+        <input type="password" name="cpass" placeholder="Confirm Password" aria-label="Confirm Password" />
+        <button id="signupButton" type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+  <script src="main.js"></script>
 </body>
 
 </html>
